@@ -30,8 +30,8 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
                node-version: '14'        
-      - name: action-yarn
-        run: npm install --global yarn
+      - name: app wake up
+        run: npm start
       - name: creating-build
         run: npm build
       - name: install surge
