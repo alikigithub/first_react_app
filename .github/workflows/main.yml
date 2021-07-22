@@ -31,7 +31,7 @@ jobs:
         with:
                node-version: '14'        
       - name: app wake up
-        used: Borales/actions-yarn@v2.1.0
+        uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install
       - name: creating-build
